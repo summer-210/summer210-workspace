@@ -28,9 +28,9 @@ Your work in the course will be completed in this workspace. Instructions for th
 
 ## Setup Backup Course Material Repository
 
-When you are first setting up your personal workspace repository, you will need to follow these instructions to connect the repository on your computer with your personal "backup" course repository on GitHub. As we add new material through the course, you will then be able to easily back it up to your backup repo.
+When you are first setting up your personal workspace repository, you will need to follow these instructions to connect the repository on your computer with your personal "backup" course repository on GitHub. As we add new material through the course, you will then be able to easily back it up to your backup repo. You only need to do this once.
 
-1. Navigate a web browser to <https://classroom.github.com/a/sHeSKMlQ>
+1. Navigate a web browser to <https://classroom.github.com/a/WKmhsDqn>
 2. Join the Classroom by selecting your ONYEN (Clicking "Skip to the next step" is also OK)
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
