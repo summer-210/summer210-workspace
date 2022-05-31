@@ -13,7 +13,7 @@ Your work in the course will be completed in this workspace. Instructions for th
    - IntelliJ might tell you there are some warnings or errors here, and you should just commit anyway!
 5. If you open the _Git_ at the bottom of your screen, you should see this commit added to your chain of git commits. However, it has just been added to your local ``main`` branch, and needs to be pushed to your remote backup.
 6. Select the _Git_ menu along the top of your screen again and then choose "Push".
-7. A pop-up should appear that displays: "main -> main : backup", which means your latest local commit on the local main branch is going to be pushed to the main branch on the remote backup. Hit the "Push" button.
+7. A pop-up should appear that displays: "main -> main : backup", which means your latest local commit on the local main branch is going to be pushed to the main branch on the remote backup. Hit the "Push" button. If you see "main -> main : origin", just click where it says origin and type backup.
 8. If you want to see your backed up work on Github, navigate to the following URL but replace `USERNAME` with your GitHub username:
    - `https://github.com/summer-210/comp210-workspace-USERNAME`
    - You can also verify it was pushed successfully by opening the _Git_ view along the bottom of your screen and verifying the latest commit appears on the local and remote branches. (The text next to the tag icons should say main & origin, next to the latest commit message)
@@ -30,13 +30,13 @@ Your work in the course will be completed in this workspace. Instructions for th
 
 When you are first setting up your personal workspace repository, you will need to follow these instructions to connect the repository on your computer with your personal "backup" course repository on GitHub. As we add new material through the course, you will then be able to easily back it up to your backup repo. You only need to do this once.
 
-1. Navigate a web browser to <https://classroom.github.com/a/WKmhsDqn>
+1. Navigate to a web browser to <https://classroom.github.com/a/WKmhsDqn>
 2. Join the Classroom by selecting your ONYEN (Clicking "Skip to the next step" is also OK)
 3. Click "Accept this Assignment"
-4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
+4. When the workspace is getting set up you may need to refresh until it tells you you're ready to go!
 5. Click the link to your personal backup repository that looks something like this `https://github.com/summer-210/comp210-workspace-kakiryan` (except instead of `kakiryan` you will see your GitHub username).
 6. Toward the top of the page it will say "Quick setup" and you will see two buttons: HTTPS and SSH. Click HTTPS and copy the text of the URL in the box to the right of the buttons (or click the clipboard icon)
-7. With your workspace open in VSCode, type in _Git: Add Remote_ and press enter with the option selected.
+7. With your workspace open in IntelliJ, select the _Git_ menu along the top of the screen and select managee remotes. Hit the plus icon to begin adding a remote. Name the remote "backup" and 
 10. In the blank text box that appears, paste in the URL to your backup repository that you just copied. Press enter.
 11. When asked for "Remote name" type in: `backup`
 12. Follow the steps in the section above on how to "Backup your work."
