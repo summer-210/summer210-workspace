@@ -1,4 +1,4 @@
-# COMP210 Workspace - Summer Session 2022
+# COMP210 Workspace - Summer Session X 2022
 
 Your work in the course will be completed in this workspace. Instructions for the two most common tasks you'll perform can be found below.
 
@@ -30,13 +30,10 @@ Your work in the course will be completed in this workspace. Instructions for th
 
 When you are first setting up your personal workspace repository, you will need to follow these instructions to connect the repository on your computer with your personal "backup" course repository on GitHub. As we add new material through the course, you will then be able to easily back it up to your backup repo. You only need to do this once.
 
-1. Navigate to a web browser to <https://classroom.github.com/a/WKmhsDqn>
+1. In a web browser, navigate to <https://classroom.github.com/a/WKmhsDqn>
 2. Join the Classroom by selecting your ONYEN (Clicking "Skip to the next step" is also OK)
 3. Click "Accept this Assignment"
 4. When the workspace is getting set up you may need to refresh until it tells you you're ready to go!
 5. Click the link to your personal backup repository that looks something like this `https://github.com/summer-210/comp210-workspace-kakiryan` (except instead of `kakiryan` you will see your GitHub username).
-6. Toward the top of the page it will say "Quick setup" and you will see two buttons: HTTPS and SSH. Click HTTPS and copy the text of the URL in the box to the right of the buttons (or click the clipboard icon)
-7. With your workspace open in IntelliJ, select the _Git_ menu along the top of the screen and select managee remotes. Hit the plus icon to begin adding a remote. Name the remote "backup" and 
-10. In the blank text box that appears, paste in the URL to your backup repository that you just copied. Press enter.
-11. When asked for "Remote name" type in: `backup`
-12. Follow the steps in the section above on how to "Backup your work."
+6. Toward the top of the page there is a green "Code button", click this, and you will see two buttons: HTTPS and SSH. Click HTTPS and copy the text of the URL in the box to the right of the buttons (or click the clipboard icon)
+7. With your workspace open in IntelliJ, select the _Git_ menu along the top of the screen and select manage remotes. Hit the plus icon to begin adding a remote. Name the remote "backup" and paste the URL of the repository in the URL box. Hit ok. You should now see two remotes, `origin` and `backup`.
