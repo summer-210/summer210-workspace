@@ -13,7 +13,7 @@ Your work in the course will be completed in this workspace. Instructions for th
    - IntelliJ might tell you there are some warnings or errors here, and you should just commit anyway!
 5. If you open the _Git_ at the bottom of your screen, you should see this commit added to your chain of git commits. However, it has just been added to your local ``main`` branch, and needs to be pushed to your remote backup.
 6. Select the _Git_ menu along the top of your screen again and then choose "Push".
-7. A pop-up should appear that displays: "main -> backup : main", which means your latest local commit on the local main branch is going to be pushed to the main branch on the remote backup. If you see "main -> origin : main", just click where it says origin and select backup. **Important**: The first time you backup your work, you will need to select the drop down and press "Force Push". Otherwise, Hit the "Push" button.
+7. A pop-up should appear that displays: "main -> backup : main", which means your latest local commit on the local main branch is going to be pushed to the main branch on the remote backup. If you see "main -> origin : main", just click where it says origin and select backup. Hit the "Push" button.
 8. If you want to see your backed up work on Github, navigate to the following URL but replace `USERNAME` with your GitHub username:
    - `https://github.com/summer-210/comp210-workspace-USERNAME`
    - You can also verify it was pushed successfully by opening the _Git_ view along the bottom of your screen and verifying the latest commit appears on the local and remote branches. (The text next to the tag icons should say main & origin, next to the latest commit message)
