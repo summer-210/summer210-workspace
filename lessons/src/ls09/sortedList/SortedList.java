@@ -1,6 +1,6 @@
 package ls09.sortedList;
 
-public interface SortedList<T> {
+public interface SortedList<T extends Comparable<T>> {
     // size
     // Returns the number of elements in the list.
     int size();
