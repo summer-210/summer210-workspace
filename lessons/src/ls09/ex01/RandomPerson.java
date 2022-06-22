@@ -1,6 +1,6 @@
 package ls09.ex01;
 
-public class RandomPerson implements Person{
+public class RandomPerson implements Person {
     private String _name;
     private double _fame;
     private double _love;
@@ -58,4 +58,5 @@ public class RandomPerson implements Person{
         return firsts[(int) (Math.random()*firsts.length)] +
                 " " + lasts[(int) (Math.random()*lasts.length)];
     }
+
 }
