@@ -1,5 +1,6 @@
 package ex10;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -36,5 +37,11 @@ public class MinBinHeap  <V, P extends Comparable<P>> implements PriorityQueue<V
     @Override
     public V getMin() {
         return null;
+    }
+
+    // Do not delete. We need this for grading!
+    public Prioritized<V, P>[] getAsArray() {
+        Prioritized<V,P>[] result = (Prioritized<V, P>[]) Array.newInstance(Prioritized.class, size());
+        return _heap.toArray(result);
     }
 }
