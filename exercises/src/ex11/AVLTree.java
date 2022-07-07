@@ -87,12 +87,19 @@ public class AVLTree<T extends Comparable<T>> implements SelfBalancingBST<T> {
 
     @Override
     public SelfBalancingBST<T> getLeft() {
+        if (isEmpty()) {
+            throw new RuntimeException("Illegal operation on empty tree");
+        }
         return _left;
     }
 
     @Override
     public SelfBalancingBST<T> getRight() {
-        return _right;
+        if (isEmpty()) {
+            throw new RuntimeException("Illegal operation on empty tree");
+        }
+
+         return _right;
     }
 
 }
